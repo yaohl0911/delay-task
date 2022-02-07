@@ -842,3 +842,4 @@ public class RabbitMQTimeoutTest {
 # 参考资料
 - [生成订单30分钟未支付，则自动取消，该怎么实现？](https://mp.weixin.qq.com/s/98p3t_Jyf-9uXuOxenBKlQ)
 - [史上最全的延迟任务实现方式汇总！附代码（强烈推荐)](https://www.cnblogs.com/vipstone/p/12696465.html)
+- [RabbitMQ处理延时订单](https://www.bilibili.com/video/BV18x41197yb)
