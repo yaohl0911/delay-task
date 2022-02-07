@@ -1,5 +1,4 @@
 # delay-task
-https://mp.weixin.qq.com/s/98p3t_Jyf-9uXuOxenBKlQ
 
 在开发中，往往会遇到一些关于延时任务的需求。例如
 
@@ -839,3 +838,9 @@ public class RabbitMQTimeoutTest {
 存在问题：RabbitMQ默认优先处理队头的消息，只有处理完之后才处理之后的消息
 解决方案：RabbitMQ服务器安装x-delay-message插件，之后会从所有消息中取死信，而不是从头依次处理
 
+
+# 参考资料
+  [生成订单30分钟未支付，则自动取消，该怎么实现？](https://mp.weixin.qq.com/s/98p3t_Jyf-9uXuOxenBKlQ)
+  [史上最全的延迟任务实现方式汇总！附代码（强烈推荐)](https://www.cnblogs.com/vipstone/p/12696465.html)
+  
+        sender.send("test3", 2000);
